@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Mensagens - Leandro e Cristiane</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="historia.html">Nossa História</a></li>
+        <li><a href="homenagens.html">Homenagens</a></li>
+        <li><a href="mensagens.html">Mensagens</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container">
+      <h2>Deixe sua mensagem para Leandro e Cristiane 💌</h2>
+      <form action="https://formsubmit.co/maribeckerfotografia@gmail.com" method="POST" enctype="multipart/form-data">
+        <!-- configurações -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="obrigado.html">
+
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br>
+
+        <label for="foto">Envie uma foto (opcional):</label><br>
+        <input type="file" name="foto" accept="image/*"><br><br>
+
+        <button type="submit">Enviar mensagem</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Obrigada por visitar nosso site e fazer parte desse momento tão especial dos nossos 25 anos. Sua presença, mesmo que virtual, enche nossos corações de alegria!</p>
+  </footer>
+</body>
+</html>

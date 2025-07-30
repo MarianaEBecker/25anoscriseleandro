@@ -1,0 +1,114 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #f9f9fc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background: #7baedc;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.home section {
+  text-align: center;
+  padding: 40px;
+  background: url('../img/floral.png') repeat top left;
+}
+
+.botao {
+  background-color: #a7c9f7;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #8bb8ec;
+}
+
+footer {
+  background-color: #7baedc;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.homenagens {
+  padding: 40px 30px;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+.container {
+  padding: 40px 30px;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.galeria figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  margin: 0;
+}
+
+.galeria img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.galeria img:hover {
+  transform: scale(1.05);
+}
+
+.galeria figcaption {
+  margin-top: 8px;
+  font-size: 15px;
+  color: #555;
+  font-style: italic;
+  text-align: center;
+}
